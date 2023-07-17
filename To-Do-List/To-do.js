@@ -18,10 +18,10 @@ function addTask(){
 }
 
 listContainer.addEventListener("click",function(e){
-    if(e.target.tagname === "L1"){
+    if(e.target.tagName === "L1"){
         e.target.classList.toggle("checked");
     }
-    else if(e.target.tagname === "SPAN"){
+    else if(e.target.tagName === "SPAN"){
         e.target.parentElement.remove();
     }
 }, false);
